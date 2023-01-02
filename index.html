@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css"> 
+		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/menu.css">
+		<title>Lesson 18</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="navbar">
+					<img class="logo" src="img/logo/logo.svg" alt="logo">
+					<div class="menu">
+						<ul class="menu__list">
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Courses</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contacts</a></li>
+						</ul>
+						<div class="menu__burger" id="burger" onclick="enable()">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<ul class="nav" id="nav">
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Courses</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contacts</a></li>
+						</ul>
+					</div>
+					<div class="navbar__cta">
+						<a href="" class="navbar__button button__solid-large"><span>Get consultation</span></a>
+						<a href="" class="navbar__action"><span>Log in / Register</span></a>
+					</div> 
+				</div> 
+			</header>
+			<main class="main">
+				<div class="homepage">
+					<div class="block__homepage">
+						<div class="homepage__illustraton-text">
+							<div class="homepage__text">
+								<div class="play-video"><a>Play showreel</a></div>
+								<h1>Enjoy studying with Createx Online Courses</h1>
+								<div class="buttons">
+									<a href="" class="button__outline-large"><span>About us</span></a>
+									<a href="" class="button__solid-large"><span>Explore courses</span></a>
+								</div>
+							</div>
+							<div class="homepage__illustraton">
+								<img src="img/illustration/illustration.svg" alt="img">
+							</div>
+						</div>
+						<div class="homepage__statistics">
+							<div class="statistics__item">
+								<div class="statistics__item-number">1200</div>
+								<div class="statistics__item-text">Students graduated</div>
+							</div>
+							<img src="img/icon/ellipse.svg" alt="ellipse">
+							<div class="statistics__item">
+								<div class="statistics__item-number">84</div>
+								<div class="statistics__item-text">Completed courses</div>
+							</div>
+							<img src="img/icon/ellipse.svg" alt="ellipse">
+							<div class="statistics__item">
+								<div class="statistics__item-number">16</div>
+								<div class="statistics__item-text">Qualified tutors</div>
+							</div>
+							<img src="img/icon/ellipse.svg" alt="ellipse">
+							<div class="statistics__item">
+								<div class="statistics__item-number">5</div>
+								<div class="statistics__item-text">Years of experience</div>
+							</div>
+						</div>
+					</div>
+					<div class="homepage__background">
+						<img class="background-shapess" src="img/background/shapess.svg" alt="shapess">
+						<img class="background-shaper" src="img/background/shapess.svg" alt="shaper">
+						<img class="background-shapes" src="img/background/shapes.svg" alt="shapes">
+						<img class="background-vector" src="img/background/vector.svg" alt="Vector">
+						<img class="background-dots" src="img/background/dots.svg" alt="dots">
+						<img class="background-circles" src="img/background/circles.svg" alt="circles">
+						<img class="background-illustration" src="img/illustration/illustration.svg" alt="illustration">
+					</div>
+				</div>
+				<div class="abaut">
+					<div class="abaut__block">
+						<div class="abaut__illustration">
+							<img src="img/illustration/image.jpg" alt="img">
+						</div>
+						<div class="abaut__text">
+							<div class="abaut__text-title">
+								<div class="title__smsil">Who we are</div>
+								<div class="title__big">Why Createx?</div>
+							</div>
+							<ul class="abaut__list">
+								<li>A fermentum in morbi pretium aliquam adipiscing donec tempus.</li>
+								<li>Vulputate placerat amet pulvinar lorem nisl.</li>
+								<li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
+								<li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
+								<li>Tincidunt sagittis neque sem ac eget.</li>
+								<li>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
+							</ul>
+							<div class="abaut__button">
+								<a href="#" class="button__solid-regular"><span>More about us</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main> 
+			<footer class="footer"></footer>
+		</div>
+		<script>
+			const enable = (e) => {
+					document. getElementById('burger').classList.toggle ('open')
+					document. getElementById('nav').classList.toggle ('nav-open')
+				}
+		</script>
+	</body>
+</html>
